@@ -32,7 +32,7 @@ export default function Dashboard() {
       </TouchableOpacity>
 
       {/* Título da tela */}
-      <Text style={Styles.title}>Resumo do dia</Text>
+      <Text style={Styles.title}>RESUMO DO DIA</Text>
 
       {/* Componente que mostra o resumo das informações (ex: vendas, alertas) */}
       <VisaoGeral />

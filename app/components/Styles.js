@@ -30,6 +30,36 @@ export default StyleSheet.create({
     padding: 30,
     marginBottom: 20,
   },
+  cardT: {
+    backgroundColor: '#1f2937',
+    borderRadius: 15,
+    borderWidth: 2,         
+    borderStyle: 'solid',   
+    borderColor: '#facc15',
+    padding: 15,
+    marginBottom: 15,
+  },
+  cardtwo: {
+    backgroundColor: '#1E1E2F',
+    borderRadius: 15,
+    borderWidth: 2,         
+    borderStyle: 'solid',   
+    borderColor: '#8B0000',
+    padding: 15,
+    marginBottom: 15,
+    marginTop: 10,
+  },
+  cardlyric: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 5
+  },
+  carditem: {
+    color: '#facc15',
+    fontWeight: 'bold',
+    marginBottom: 8,
+  },
   cardTitle: {
     color: colors.blue,
     fontSize: 20,
@@ -39,17 +69,18 @@ export default StyleSheet.create({
   },
   cardText: {
     color: colors.textLight,
-    fontSize: 14,
+    fontSize: 16,
   },
   button: {
-    backgroundColor: colors.blue,
+    backgroundColor: '#facc15',
     borderRadius: 8,
     paddingVertical: 12,
     paddingHorizontal: 20,
     alignSelf: 'center',              // centraliza o botão
+    marginBottom: 20,
   },
   buttonText: {
-    color: colors.textLight,
+    color: 'black',
     fontSize: 16,
     fontWeight: 'bold',
   },
